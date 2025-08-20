@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #0b2342; /* Azul marino oscuro */
+    background-color: #388E3C;
     padding: 15px 0;
 }
 
@@ -27,13 +27,13 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #1f3c6a; /* Azul marino más claro para hover */
-    border-color: #1f3c6a;
+    background-color: #1B5E20;
+    border-color: #1B5E20;
 }
 
 main {
     padding: 30px;
-    background-color: #f5f7fa; /* Gris muy claro */
+    background-color: #f1f8e9;
     min-height: 80vh;
 }
 
@@ -49,7 +49,7 @@ main {
 .users-title {
     text-align: center;
     margin-bottom: 20px;
-    color: #0b2342; /* Azul marino oscuro */
+    color: #388E3C;
     font-size: 28px;
     font-weight: bold;
 }
@@ -72,13 +72,13 @@ main {
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    color: #1a2d4f; /* Azul grisáceo */
+    color: #2C6B2F;
 }
 
 .form-row input {
     padding: 8px 10px;
     border-radius: 5px;
-    border: 1px solid #ced4da;
+    border: 1px solid #c8e6c9;
     margin-top: 5px;
     font-size: 14px;
 }
@@ -93,7 +93,7 @@ main {
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
-    background-color: #0b2342; /* Azul marino */
+    background-color: #FF9800;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -101,7 +101,7 @@ main {
 }
 
 .btn-crud:hover {
-    background-color: #1f3c6a; /* Azul marino más claro */
+    background-color: #FB8C00;
 }
 
 .search-container {
@@ -113,7 +113,7 @@ main {
 .input-search {
     padding: 6px 10px;
     border-radius: 5px;
-    border: 1px solid #ced4da;
+    border: 1px solid #c8e6c9;
     font-size: 14px;
     margin-left: 10px;
 }
@@ -134,20 +134,20 @@ main {
 
 .users-table th, .users-table td {
     padding: 12px 15px;
-    border: 1px solid #dee2e6;
+    border: 1px solid #c8e6c9;
     text-align: center;
 }
 
 .users-table th {
-    background-color: #0b2342; /* Azul marino oscuro */
+    background-color: #388E3C;
     color: #fff;
     font-weight: bold;
 }
 
 .users-table tr:nth-child(even) {
-    background-color: #f5f7fa; /* Gris claro */
+    background-color: #f1f8e9;
 }
 
 .users-table tr:hover {
-    background-color: #d6e0f0; /* Azul muy claro para hover */
+    background-color: #dcedc8;
 }
